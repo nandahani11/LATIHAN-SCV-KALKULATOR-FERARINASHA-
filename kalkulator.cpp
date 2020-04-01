@@ -8,7 +8,7 @@ class kalkulator{
       void_bagi();
 }
 
-void_tambah(){
+void_tambah(){                       //method penjumlahan
       int a, b;
       
       cout<<"OPERASI PENJUMLAHAN"<<endl<<endl;
@@ -17,8 +17,21 @@ void_tambah(){
       cout<<"Masukkan Angka kedua  : ";
       cin>>b;
       cout<<"Hasil Penjumlahan : "<< a + b;
+  }
+
+void_kurang(){                    //method pengurangan
+    int a, b;
+    
+    cout<<"Masukkan Bilangan Pertama : ";
+    cin>>a;
+    cout<<"Masukkan Bilangan kedua : ";
+    cin>>b;
+    cout<<"Hasil Pengurangan = "<<a - b;
 }
 
-int main(){
-      void_tambah();
+main()
+{ 
+  // hilangkan komen pada salah satu method untuk menggunakan salah satu operasi kalkulatornya
+  // void_tambah(); 
+  // void_kurang();
 }
