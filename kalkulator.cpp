@@ -7,3 +7,18 @@ class kalkulator{
       void_kali();
       void_bagi();
 }
+
+void_tambah(){
+      int a, b;
+      
+      cout<<"OPERASI PENJUMLAHAN"<<endl<<endl;
+      cout<<"Masukkan Angka pertama : ";
+      cin>>a;
+      cout<<"Masukkan Angka kedua  : ";
+      cin>>b;
+      cout<<"Hasil Penjumlahan : "<< a + b;
+}
+
+int main(){
+      void_tambah();
+}
