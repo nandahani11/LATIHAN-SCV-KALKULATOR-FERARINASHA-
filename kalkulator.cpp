@@ -16,6 +16,7 @@ void_tambah(){
       cin>>a;
       cout<<"Masukkan Angka kedua  : ";
       cin>>b;
+      cout<<"Hasil Penjumlahan : "<< a + b;
 }
 
 int main(){
