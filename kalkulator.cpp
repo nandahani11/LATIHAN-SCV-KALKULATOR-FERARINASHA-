@@ -41,10 +41,22 @@ void_kurang(){                    //method pengurangan
         cout << "Hasil Perkalian : " << x * y << endl;
     }
 
+void_bagi(){                      //method pembagian
+        int x, y;
+   
+        cout<<"OPERASI PEMBAGIAN"<<endl<<endl;
+        cout << "Masukkan Nilai X  : ";
+        cin >> x;
+        cout << "Masukkan Nilai Y  : ";
+        cin >> y;
+        cout << "Hasil Perkalian : " << x / y << endl;
+    }
+
 main()
 { 
   // hilangkan komen pada salah satu method untuk menggunakan salah satu operasi kalkulatornya
   // void_tambah(); 
   // void_kurang();
   // void_kali();
+  // void_bagi();
 }
