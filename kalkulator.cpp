@@ -49,7 +49,7 @@ void_bagi(){                      //method pembagian
         cin >> x;
         cout << "Masukkan Nilai Y  : ";
         cin >> y;
-        cout << "Hasil Perkalian : " << x / y << endl;
+        cout << "Hasil Pembagian : " << x / y << endl;
     }
 
 main()
